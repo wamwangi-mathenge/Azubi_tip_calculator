@@ -23,5 +23,7 @@ Charge for food = $50.00
 `Output`
 
 Tip = $9.00
+
 Sales tax = $3.50
+
 Grand total = $62.50
