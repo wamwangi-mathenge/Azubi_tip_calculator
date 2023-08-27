@@ -6,7 +6,11 @@ print()
 tip = float(charge) * 0.18
 rounded_tip = round(tip, 2)
 print("Tip =", rounded_tip)
-
+print()
 sales_tax = float(charge) * 0.07
 rounded_sales = round(sales_tax, 2)
 print("Sales tax =", rounded_sales)
+print()
+# Add everything together and display the charge of the food plus tip and sales tax
+grand_total = float(charge) + float(rounded_tip) + float(rounded_sales)
+print("Grand total =", grand_total)
